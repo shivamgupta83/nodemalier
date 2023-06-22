@@ -14,7 +14,7 @@ await nodemailer.createTestAccount();
     });
 
  let Option = {
-      from: 'hmeshaaavaj@gmail.com>',
+      from: 'hameshaaavaj@gmail.com>',
       to: req.body.email,
       subject: "Hello ✔",
       text: "Hello world?",
@@ -34,7 +34,5 @@ await nodemailer.createTestAccount();
 
 
 }
-
-
 
 module.exports = sendMail;
